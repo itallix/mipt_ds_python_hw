@@ -14,9 +14,15 @@ Install dependencies with poetry:
 poetry install
 ```
 
+Running notebooks with jupyter lab:
+
+```sh
+poetry run jupyter lab
+```
+
 ## HWs:
 
-1. Guessing number based on random input from interval [1, 100].
+### Guessing number based on random input from interval [1, 100].
 
 [solution](./src/game_core.py) uses double pointer technique and minimises interval on
 each iteration.
@@ -30,3 +36,9 @@ poetry run pytest tests/test_game_core.py
 ```
 
 Solution is duplicated in [guess_number notebook](./notebooks/guess_number.ipynb)
+
+### HeadHunter CV analysis.
+
+#### Prerequisites
+
+Data dump with CVs from hh.ru is available via [link](https://drive.google.com/file/d/1EzqRRuSg1sGORzAssQ8J1VZsAydAVfqu/view?usp=drive_link)
